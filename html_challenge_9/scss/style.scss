@@ -1,0 +1,27 @@
+$color_1: black;
+$color_2: white;
+
+body {
+	background-image: url("../images/bigbean.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 900px;
+	margin: auto;
+	padding: 50px 20px;
+	margin-top: 20px;
+}
+td {
+	color: $color_1;
+}
+h1 {
+	color: $color_2;
+}
+h2 {
+	color: $color_2;
+}
+h3 {
+	color: $color_2;
+}
+.ref {
+	color: $color_2;
+}

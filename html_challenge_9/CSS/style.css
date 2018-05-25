@@ -1,0 +1,25 @@
+body {
+  background-image: url("../images/bigbean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+  margin-top: 20px; }
+
+td {
+  color: black; }
+
+h1 {
+  color: white; }
+
+h2 {
+  color: white; }
+
+h3 {
+  color: white; }
+
+.ref {
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */

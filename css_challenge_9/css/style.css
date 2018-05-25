@@ -1,0 +1,139 @@
+/*starter CSS*/
+/*my own emoji*/
+.face {
+  background-color: #ecee1d;
+  border-radius: 300px;
+  border: 2px solid black;
+  height: 300px;
+  position: relative;
+  width: 300px; }
+
+.eyeright {
+  background-color: black;
+  border-radius: 30px;
+  height: 60px;
+  position: absolute;
+  top: 100px;
+  width: 40px;
+  margin-left: 188px; }
+
+.eyeleft {
+  background-color: black;
+  border-radius: 30px;
+  height: 60px;
+  position: absolute;
+  top: 100px;
+  width: 40px;
+  margin-left: 68px; }
+
+.mouth {
+  border-radius: 0 0 92px 92px;
+  border-bottom: 2px solid black;
+  padding: 56px;
+  width: 64px;
+  margin-left: 59px;
+  margin-right: 53px;
+  margin-top: 148px; }
+
+.face_2 {
+  background-color: peachpuff;
+  border-radius: 300px;
+  border: 2px solid black;
+  height: 300px;
+  position: relative;
+  width: 300px;
+  left: 77px;
+  top: 50px; }
+
+.eye_left_2 {
+  background-color: black;
+  border-radius: 30px;
+  height: 45px;
+  position: absolute;
+  top: 105px;
+  width: 40px;
+  left: 62px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  transform: rotate(-51deg);
+  z-index: 1; }
+
+.eye_right_2 {
+  background-color: black;
+  border-radius: 30px;
+  height: 45px;
+  position: absolute;
+  top: 106px;
+  width: 40px;
+  left: 196px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  transform: rotate(49deg);
+  z-index: 1; }
+
+.mouth_2 {
+  position: absolute;
+  border-radius: 0 0 39px 1px;
+  border: 3px solid black;
+  top: -2px;
+  width: 0px;
+  padding: 93px;
+  left: 60px;
+  height: 37px;
+  border-color: transparent #000 #000 #000;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-left: 100px;
+  border-right: 100px;
+  border-bottom-width: thick;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+.hair {
+  background-color: black;
+  border-radius: 30px;
+  height: 92px;
+  position: absolute;
+  width: 280px;
+  top: -11px;
+  left: 7px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0px; }
+
+.body2 {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  width: 60px;
+  height: 173px;
+  top: 211px;
+  background: #0099F7;
+  border-radius: 15px 0 0 0;
+  left: 49px;
+  transform: rotate(-90deg) skewY(64deg); }
+
+.body1 {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 60px;
+  height: 173px;
+  top: 211px;
+  background: #0099F7;
+  border-radius: 0 15px 0 0;
+  right: 56px;
+  transform: rotate(90deg) skewY(-63deg); }
+
+.logo {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 4;
+  width: 95px;
+  height: 75px;
+  top: 300px;
+  background-image: url(../images/logo2.png);
+  left: 98px;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+/*# sourceMappingURL=style.css.map */

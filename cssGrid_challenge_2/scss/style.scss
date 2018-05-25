@@ -1,0 +1,111 @@
+$color_1: white;
+
+* {
+	box-sizing: border-box;
+}
+.container {
+	display: grid;
+	grid-template-areas: 'nav_bar search img_1' 'nav_bar img_2 img_3' 'nav_bar img_4 img_3';
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	background: url('../images/background.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.nav_bar {
+	border: 1px solid black;
+	grid-area: nav_bar;
+	grid-row-start: 1;
+	grid-row-end: 33;
+	background: url('../images/background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: $color_1;
+}
+.search {
+	border: 1px solid black;
+	grid-area: search;
+	height: 300px;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background: url('../images/tenor.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img_1 {
+	border: 1px solid black;
+	grid-area: img_1;
+	grid-row-start: 1;
+	grid-row-end: 9;
+	background: url('../images/pad.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img_2 {
+	border: 1px solid black;
+	grid-area: img_2;
+	grid-row-start: 3;
+	grid-row-end: 17;
+	background: url('../images/thai.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img_3 {
+	border: 1px solid black;
+	grid-area: img_3;
+	grid-row-start: 9;
+	grid-row-end: 26;
+	background: url('../images/shrimp.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img_4 {
+	border: 1px solid black;
+	grid-area: img_4;
+	grid-row-start: 17;
+	grid-row-end: 33;
+	background: url('../images/bigbean.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pic_of_me {
+	margin-top: 29px;
+	margin-left: 130px;
+	width: 163px;
+	height: 163px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 44px 0;
+	color: $color_1;
+	text-shadow: 1px 1px 1px black;
+	border: 1px solid black;
+	border-radius: 50%;
+	background: url('../images/ryan.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.item_1 {
+	border: 1px solid black;
+	height: 330px;
+	background: url('../images/coffee.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: sticky;
+	top: 20px;
+}
+nav {
+	>a {
+		color: $color_1;
+		font-size: 2em;
+	}
+}
